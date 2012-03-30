@@ -1,0 +1,11 @@
+This project provides classes for loading and manipulating GPX files. Saving isn't implemented yet.
+
+To load a GPX file:
+
+	from gpx import Gpx
+
+	gpx = Gpx.load('examples/ashland.gpx')
+
+	print gpx.tracks
+	
+You can also run and examine test.py.

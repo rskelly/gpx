@@ -2,7 +2,7 @@ from gpx import *
 
 g = Gpx
 
-for file in ['fells_loop.gpx', 'ashland.gpx']:
+for file in ['examples/fells_loop.gpx', 'examples/ashland.gpx']:
 	f = g.load(file)
 
 	print "File: %s" % file
